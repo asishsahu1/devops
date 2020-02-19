@@ -38,6 +38,7 @@ public class UserServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String action = request.getServletPath();
+		Strinf s="sahu";
 
 		try {
 			switch (action) {
